@@ -1,0 +1,31 @@
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="dosen_view_tree">
+			<field name="name">Dosen Tree View</field>
+			<field name="model">data.dosen</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="name" />
+					<field name="id_dosen" />
+				</tree>
+			</field>
+		</record>
+
+		<record model="ir.ui.view" id="dosen_view_form">
+			<field name="name">Dosen Form View</field>
+			<field name="model">data.dosen</field>
+			<field name="arch" type="xml">
+				<form>
+					<field name="name" />
+					<field name="id_dosen" />
+				</form>
+			</field>
+		</record>
+		
+		<record model="ir.actions.act_window" id="action_view_dosen">
+		<field name="name">Dosen</field>
+		<field name="res_model">data.dosen</field>
+		<field name="view_mode">tree,form</field>
+		</record>
+	</data>
+</openerp>

@@ -1,0 +1,15 @@
+<openerp>
+	<data>
+	
+		<menuitem id="menu_perguruan_root" name="Perguruan Tinggi" sequence="11"/>
+	
+		<menuitem id="menu_perguruan_main" name="Perguruan Tinggi" sequence="10" parent="menu_perguruan_root"/>
+	
+		<menuitem id="menu_perguruan_pelajaran" name="Pelajaran" sequence="10" parent="menu_perguruan_main" action="action_view_pelajaran"/>
+	
+		<menuitem id="menu_perguruan_dosen" name="Dosen" sequence="20" parent="menu_perguruan_main" action="action_view_dosen"/>
+	
+		<menuitem id="menu_perguruan_mahasiswa" name="Mahasiswa" sequence="30" parent="menu_perguruan_main" action="action_view_mahasiswa"/>
+	
+	</data>
+</openerp>

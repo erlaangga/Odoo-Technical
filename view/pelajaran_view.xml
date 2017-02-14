@@ -1,0 +1,32 @@
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="pelajaran_view_tree">
+			<field name="name">pelajaran Tree View</field>
+			<field name="model">data.pelajaran</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="name" />
+					<field name="id_pelajaran" />
+				</tree>
+			</field>
+		</record>
+
+		<record model="ir.ui.view" id="pelajaran_view_form">
+			<field name="name">pelajaran Form View</field>
+			<field name="model">data.pelajaran</field>
+			<field name="arch" type="xml">
+				<form>
+					<field name="name" />
+					<field name="id_pelajaran" />
+				</form>
+			</field>
+		</record>
+
+		<record model="ir.actions.act_window" id="action_view_pelajaran">
+			<field name="name">pelajaran</field>
+			<field name="res_model">data.pelajaran</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		
+	</data>
+</openerp>
