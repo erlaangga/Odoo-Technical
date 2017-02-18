@@ -16,17 +16,24 @@
 			<field name="model">data.pelajaran</field>
 			<field name="arch" type="xml">
 				<form>
-					<field name="name" />
-					<field name="id_pelajaran" />
+					<header>
+						<field name="state" widget="statusbar" />
+					</header>
+					<sheet>
+						<group>
+							<field name="name" />
+							<field name="id_pelajaran" />
+						</group>
+					</sheet>
 				</form>
 			</field>
 		</record>
 
 		<record model="ir.actions.act_window" id="action_view_pelajaran">
-			<field name="name">pelajaran</field>
+			<field name="name">Pelajaran</field>
 			<field name="res_model">data.pelajaran</field>
 			<field name="view_mode">tree,form</field>
 		</record>
-		
+
 	</data>
 </openerp>

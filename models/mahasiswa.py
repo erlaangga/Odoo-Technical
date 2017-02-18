@@ -5,5 +5,5 @@ class Mahasiswa(osv.osv):
     
     _columns = {
                 "name":fields.char("Nama Mahasiswa"),
-                "id_mahasiswa": fields.char("Kode Mahasiswa")
+                "id_mahasiswa": fields.char("Kode Mahasiswa"),
                 }

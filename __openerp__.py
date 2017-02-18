@@ -4,9 +4,10 @@
 "name":"Perguruan Tinggi",
 "author":"Erlangga",
 "data":[
-        "view/dosen_view.xml",
-        "view/mahasiswa_view.xml",
-        "view/pelajaran_view.xml",
+        "views/dosen_view.xml",
+        "views/mahasiswa_view.xml",
+        "views/pelajaran_view.xml",
+        "views/sesi_view.xml",
         "menu.xml",
         ],
 

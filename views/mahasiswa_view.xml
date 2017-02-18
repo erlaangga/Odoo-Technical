@@ -16,8 +16,12 @@
 			<field name="model">data.mahasiswa</field>
 			<field name="arch" type="xml">
 				<form>
-					<field name="name" />
-					<field name="id_mahasiswa" />
+					<sheet>
+						<group>
+							<field name="name" />
+							<field name="id_mahasiswa" />
+						</group>
+					</sheet>
 				</form>
 			</field>
 		</record>
@@ -27,6 +31,6 @@
 			<field name="res_model">data.mahasiswa</field>
 			<field name="view_mode">tree,form</field>
 		</record>
-		
+
 	</data>
 </openerp>

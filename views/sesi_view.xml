@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	
+	<act_window id="action_sesi_view" name="Sesi" res_model="data.sesi" view_mode="tree,form" />
+	<!-- 
+	<record model="ir.actions.act_windows" id="asdadsdf">
+	<field name="name">Sesi</field>
+	<field 
+	</record> -->
+</odoo>
