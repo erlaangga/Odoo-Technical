@@ -5,6 +5,6 @@ class Dosen(osv.osv):
     
     _columns = {
                 "name":fields.char("Nama Dosen"),
-                "id_dosen":fields.char("ID Dosen")
+                "id_dosen":fields.char("ID Dosen"),
                 }   
     
